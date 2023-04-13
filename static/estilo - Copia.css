@@ -1,0 +1,37 @@
+body{
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.link{
+    float: right
+}
+
+
+p{
+    text-align: justify;
+    margin-left: auto;
+}
+
+.img-capa{
+    padding-top: 2%;
+    float: inline-end;
+}
+
+.texto{
+    text-align: center;
+}
+
+.a{
+    text-align: justify;
+    margin-left: auto;
+}
+
+.fundo1{
+    background-image: url(../static/Imagens/fundo.png);
+}
+
+.fundo2{
+    background-image: url(../static/Imagens/fundo2.png);
+}

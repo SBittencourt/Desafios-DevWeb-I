@@ -24,7 +24,7 @@ def contato():
                descricao = request.form['descricao']
             
                cur = mysql.connection.cursor()
-               cur.execute("INSERT INTO contatos(email, assunto, descricao) VALUE()")
+               cur.execute("INSERT INTO contatos(email, assunto, descricao) VALUES(%s,%s,%s)", (email, assunto, descricao))
                
                mysql.connection.commit()
                
